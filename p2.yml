@@ -4,7 +4,7 @@
   tasks:
     - name: Start docker service
       service:
-        name: docker
+        service: docker
         state: started
 
     - name: pull docker image
